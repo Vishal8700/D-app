@@ -1,0 +1,45 @@
+.unique-main-content {
+    margin-left: 270px; /* To make space for the sidebar */
+    padding: 20px;
+    background-color: #ECF0F1;
+    min-height: 100vh;
+  }
+  .unique-main-section{
+    margin-left: 290px;
+    margin-right: 10px;
+    
+  }
+  
+  .unique-notices {
+    margin-top: 20px;
+  }
+  .active-item{
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1%;
+    color: rgb(150, 127, 255);
+  }
+  
+  .unique-notice-item {
+    background-color: #FFF;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .unique-notice-item h3 {
+    margin: 0 0 5px;
+  }
+  
+  .unique-notice-item p {
+    margin: 0 0 10px;
+  }
+  
+  .unique-notice-date {
+    font-size: 12px;
+    color: #7F8C8D;
+  }
+  

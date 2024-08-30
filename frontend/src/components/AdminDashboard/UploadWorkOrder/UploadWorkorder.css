@@ -1,0 +1,96 @@
+.upload-workorder {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; /* Increased width */
+  margin: 20px auto; /* Center the form with some margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-workorder h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  min-width: 500px;
+  width: 100%; /* Full width for better responsiveness */
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%; /* Full width for inputs and textareas */
+  padding: 12px; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Ensure the font size is readable */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px; /* Fixed height for textareas */
+}
+
+.button-group {
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: space-between; /* Space between buttons */
+}
+
+.back-button {
+  width: 48%;
+   /* Set width for back button */
+  padding: 12px;
+  background-color: #f44336; /* Red color for back button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 40px;
+}
+
+.back-button:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+.submit-button {
+  width: 48%; /* Set width for submit button */
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 100px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Add some media queries for responsiveness */
+@media (max-width: 600px) {
+  .upload-workorder {
+      width: 90%; /* Make it responsive on smaller screens */
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
